@@ -17,7 +17,8 @@ function reservar(linha, coluna, cadeira){
         cadeira.style.backgroundColor="red"
         document.getElementById("mensagem").innerText="Cadeira Reservada com Sucesso"
     }else{
-        cadeira.style.backgroundColor="grey"
-        document.getElementById("mensagem").innerText="Cadeira ocupada"
+
+        cadeira.style.backgroundColor="green"
+        document.getElementById("mensagem").innerText="Cadeira agendada"
     }
 }
